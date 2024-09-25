@@ -129,3 +129,51 @@ img-topo-site{
     font-size: small;
 }
 
+/* ESTILO PORTIFOLIO */
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffffbe;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    
+}
+
+
+section.portifolio .titulo{
+    color: #457076;
+    font-size: 38px;
+    line-height: 40px 0;
+    margin-inline: 40px;
+    text-align: center;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color:  #457076;
+    background-size: cover;
+    background-position: 50% 100%;
+    cursor: pointer;
+}
+
+.img-port:hover{
+    background-position: 100% 100%
+}
+
+.img-port2{
+    width: 360px;
+    height: 460px;
+    background-color:  #457076;
+    background-size: cover;
+    background-position: 50% 60%;
+    cursor: pointer;
+}
+
+.img-port2:hover{
+    background-position: 100% 100%
+}
+
+
+
